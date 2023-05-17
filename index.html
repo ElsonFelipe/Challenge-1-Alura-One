@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="imagens/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.svg" alt="Logo Alura">
+    </header>
+    <main>
+        <div>
+            <input type="text" id="textoEntrada" placeholder="Digite seu texto">
+        </div>
+        <div>
+            <p>Apenas letras maiusculas e sem acento.</p>
+            <input class="botao-crip" type="button" value="Criptografar" onclick="criptografar()">
+            <input class="botao-descrip" type="button" value="Descriptografar">
+        </div>
+        <div id="saidaTexto" class="saida-texto">
+            <img src="imagens/none.svg" alt="Não encontrado">
+            <p class="info-mensagem1">Nenhuma mensagem encontrada</p>
+            <p class="info-mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+    </main>
+    <footer>
+        <h6><a href="https://github.com/ElsonFelipe">Elson Felipe</a> 2023</h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
